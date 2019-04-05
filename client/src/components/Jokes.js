@@ -22,7 +22,7 @@ class Login extends React.Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className="jokes-container">
 				<h2>Jokes</h2>
 				<ul>{this.state.jokes.map((joke) => <li key={joke.id}>{joke.joke}</li>)}</ul>
 			</div>
